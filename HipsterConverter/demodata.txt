@@ -1,0 +1,531 @@
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0e 41 00 00 00 00 00 00 00 00 00 00 f4 01 80]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=05 3f 01 01 00 00]
+AnkiMessage [ankiCar=CarCesar, messageBody=[05, 3f, 01, 01, 00, 00]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=03 36 00 00]
+AnkiMessage [ankiCar=CarCesar, messageBody=[03, 36, 00, 00]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=0b 86 16 00 24 08 00 00 eb 0f 00 00]
+AnkiMessage [ankiCar=CarCesar, messageBody=[0b, 86, 16, 00, 24, 08, 00, 00, eb, 0f, 00, 00]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=05 3f 00 01 00 00]
+AnkiMessage [ankiCar=CarCesar, messageBody=[05, 3f, 00, 01, 00, 00]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=03 36 f4 01]
+AnkiMessage [ankiCar=CarCesar, messageBody=[03, 36, f4, 01]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=05 3f 01 01 00 00]
+AnkiMessage [ankiCar=CarCesar, messageBody=[05, 3f, 01, 01, 00, 00]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=03 4d 01 00]
+AnkiMessage [ankiCar=CarCesar, messageBody=[03, 4d, 01, 00]]
+
+RawAnkiMessage [address=C7:E8:D2:22:BB:DE, rawMessage=05 3f 01 01 00 01]
+AnkiMessage [ankiCar=CarCesar, messageBody=[05, 3f, 01, 01, 00, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=05 3f 00 00 00 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[05, 3f, 00, 00, 00, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=0b 86 af 00 26 08 00 00 13 10 00 00]
+AnkiMessage [ankiCar=CarBerta, messageBody=[0b, 86, af, 00, 26, 08, 00, 00, 13, 10, 00, 00]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=03 36 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[03, 36, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=05 3f 01 00 00 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[05, 3f, 01, 00, 00, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 05 21 10 bf 1f 49 cb 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 05, 21, 10, bf, 1f, 49, cb, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 49 00 17 16]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=73, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@243013e3]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 0b 10 bf 1f 49 1f 02 46 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 0b, 10, bf, 1f, 49, 1f, 02, 46, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 0b 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 0b, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 1f 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, 1f, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 d0 00 35 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=208, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@6cd703b4]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 12 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 12, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 fa 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, fa, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 2b 00 31 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=43, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@58497d9e]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0f 27 10 bf 1f 49 ec 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0f, 27, 10, bf, 1f, 49, ec, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 10 27 10 bf 1f 49 f4 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 10, 27, 10, bf, 1f, 49, f4, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 11 27 10 bf 1f 49 fa 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 11, 27, 10, bf, 1f, 49, fa, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 37 36]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@30eb54bb]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 12 10 bf 1f 49 f3 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 12, 10, bf, 1f, 49, f3, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 12 10 bf 1f 49 f7 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 12, 10, bf, 1f, 49, f7, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 12 10 bf 1f 49 02 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 12, 10, bf, 1f, 49, 02, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 32 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@14e0f64e]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 11 10 bf 1f 49 0c 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 11, 10, bf, 1f, 49, 0c, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 11 10 bf 1f 49 ee 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 11, 10, bf, 1f, 49, ee, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 11 10 bf 1f 49 ef 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 11, 10, bf, 1f, 49, ef, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 33 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@407e8dc5]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0a 22 10 bf 1f 49 f6 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0a, 22, 10, bf, 1f, 49, f6, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 22 10 bf 1f 49 f5 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 22, 10, bf, 1f, 49, f5, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 22 22]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@53c8bdd9]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 05 21 10 bf 1f 49 fc 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 05, 21, 10, bf, 1f, 49, fc, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 16 15]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@39ec6597]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 0b 10 bf 1f 49 0a 02 46 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 0b, 10, bf, 1f, 49, 0a, 02, 46, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 13 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 13, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 1b 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, 1b, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 9d 00 35 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=157, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@2a2da662]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 14 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 14, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 f2 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, f2, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 3a 00 31 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=58, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@1e091647]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0f 27 10 bf 1f 49 e7 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0f, 27, 10, bf, 1f, 49, e7, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 10 27 10 bf 1f 49 fb 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 10, 27, 10, bf, 1f, 49, fb, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 11 27 10 bf 1f 49 f5 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 11, 27, 10, bf, 1f, 49, f5, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 37 37]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@8b9462a]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 12 10 bf 1f 49 f7 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 12, 10, bf, 1f, 49, f7, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 12 10 bf 1f 49 f6 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 12, 10, bf, 1f, 49, f6, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 12 10 bf 1f 49 f7 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 12, 10, bf, 1f, 49, f7, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 32 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@52a34a77]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 11 10 bf 1f 49 19 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 11, 10, bf, 1f, 49, 19, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 11 10 bf 1f 49 dc 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 11, 10, bf, 1f, 49, dc, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 11 10 bf 1f 49 ea 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 11, 10, bf, 1f, 49, ea, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 33 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@15fae8f7]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0a 22 10 bf 1f 49 f8 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0a, 22, 10, bf, 1f, 49, f8, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 22 10 bf 1f 49 fe 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 22, 10, bf, 1f, 49, fe, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 22 22]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@43177f21]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 05 21 10 bf 1f 49 f4 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 05, 21, 10, bf, 1f, 49, f4, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 16 16]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@1dde97f]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 17 10 bf 1f 49 0e 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 17, 10, bf, 1f, 49, 0e, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 02 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 02, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 28 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, 28, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 98 00 35 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=152, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@4965ebc1]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 0c 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 0c, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 e1 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, e1, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 43 00 30 2b]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=67, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@b1a0f4a]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0f 27 10 bf 1f 49 ea 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0f, 27, 10, bf, 1f, 49, ea, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 10 27 10 bf 1f 49 fd 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 10, 27, 10, bf, 1f, 49, fd, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 11 27 10 bf 1f 49 ed 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 11, 27, 10, bf, 1f, 49, ed, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 37 36]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@730c877f]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 12 10 bf 1f 49 f6 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 12, 10, bf, 1f, 49, f6, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 12 10 bf 1f 49 e8 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 12, 10, bf, 1f, 49, e8, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 12 10 bf 1f 49 ed 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 12, 10, bf, 1f, 49, ed, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 32 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@1d740e70]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 11 10 bf 1f 49 17 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 11, 10, bf, 1f, 49, 17, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 11 10 bf 1f 49 de 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 11, 10, bf, 1f, 49, de, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 11 10 bf 1f 49 e8 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 11, 10, bf, 1f, 49, e8, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 33 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@7b29c5fc]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0a 22 10 bf 1f 49 f1 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0a, 22, 10, bf, 1f, 49, f1, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 22 10 bf 1f 49 f6 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 22, 10, bf, 1f, 49, f6, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 22 21]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@2012e58c]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 05 21 10 bf 1f 49 e9 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 05, 21, 10, bf, 1f, 49, e9, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 16 16]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@3732b98e]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 17 10 bf 1f 49 32 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 17, 10, bf, 1f, 49, 32, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 10 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 10, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 3b 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, 3b, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 aa 00 35 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=170, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@a082696]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 0d 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 0d, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 f1 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, f1, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 43 00 30 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=67, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@3fbb140e]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0f 27 10 bf 1f 49 ee 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0f, 27, 10, bf, 1f, 49, ee, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 10 27 10 bf 1f 49 09 02 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 10, 27, 10, bf, 1f, 49, 09, 02, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 11 27 10 bf 1f 49 f9 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 11, 27, 10, bf, 1f, 49, f9, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 37 36]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@8b2a8f0]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 12 10 bf 1f 49 fd 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 12, 10, bf, 1f, 49, fd, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 12 10 bf 1f 49 ef 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 12, 10, bf, 1f, 49, ef, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 12 10 bf 1f 49 f5 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 12, 10, bf, 1f, 49, f5, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 32 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@2a6e9ea1]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 11 10 bf 1f 49 03 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 11, 10, bf, 1f, 49, 03, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 11 10 bf 1f 49 dc 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 11, 10, bf, 1f, 49, dc, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 11 10 bf 1f 49 ec 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 11, 10, bf, 1f, 49, ec, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 33 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@619931ec]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0a 22 10 bf 1f 49 f2 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0a, 22, 10, bf, 1f, 49, f2, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 22 10 bf 1f 49 f0 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 22, 10, bf, 1f, 49, f0, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 22 21]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@66552b5]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 05 21 10 bf 1f 49 f1 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 05, 21, 10, bf, 1f, 49, f1, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 16 16]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@1b0d8fa1]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 17 10 bf 1f 49 fc 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 17, 10, bf, 1f, 49, fc, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 10 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 10, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 1a 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, 1a, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 c6 00 34 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=198, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@45c891f7]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=03 4d 00 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[03, 4d, 00, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 0e 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 0e, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 f4 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, f4, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 34 00 31 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=52, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@6df6cef3]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0f 27 10 bf 1f 49 ee 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0f, 27, 10, bf, 1f, 49, ee, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 10 27 10 bf 1f 49 fd 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 10, 27, 10, bf, 1f, 49, fd, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 11 27 10 bf 1f 49 f9 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 11, 27, 10, bf, 1f, 49, f9, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 37 36]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@412ad902]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 12 10 bf 1f 49 f2 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 12, 10, bf, 1f, 49, f2, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 12 10 bf 1f 49 ed 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 12, 10, bf, 1f, 49, ed, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 12 10 bf 1f 49 fa 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 12, 10, bf, 1f, 49, fa, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 32 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@36ad3601]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 11 10 bf 1f 49 05 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 11, 10, bf, 1f, 49, 05, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 11 10 bf 1f 49 dc 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 11, 10, bf, 1f, 49, dc, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 11 10 bf 1f 49 fe 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 11, 10, bf, 1f, 49, fe, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 33 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@376b5e0a]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0a 22 10 bf 1f 49 fa 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0a, 22, 10, bf, 1f, 49, fa, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 22 10 bf 1f 49 fb 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 22, 10, bf, 1f, 49, fb, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 22 22]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@6cb19f42]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 05 21 10 bf 1f 49 f3 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 05, 21, 10, bf, 1f, 49, f3, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 16 16]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@7bc4a91f]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 17 10 bf 1f 49 47 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 17, 10, bf, 1f, 49, 47, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 03 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 03, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 11 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, 11, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 b2 00 34 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=178, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@24868558]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 12 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 12, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 f8 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, f8, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 38 00 32 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=56, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@49f014cc]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0f 27 10 bf 1f 49 e5 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0f, 27, 10, bf, 1f, 49, e5, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 10 27 10 bf 1f 49 f9 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 10, 27, 10, bf, 1f, 49, f9, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 11 27 10 bf 1f 49 f1 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 11, 27, 10, bf, 1f, 49, f1, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 37 37]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@29dbc93f]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 12 10 bf 1f 49 f8 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 12, 10, bf, 1f, 49, f8, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 12 10 bf 1f 49 f2 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 12, 10, bf, 1f, 49, f2, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 12 10 bf 1f 49 f8 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 12, 10, bf, 1f, 49, f8, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 33 2b]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@7709014a]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 11 10 bf 1f 49 12 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 11, 10, bf, 1f, 49, 12, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 11 10 bf 1f 49 de 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 11, 10, bf, 1f, 49, de, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 11 10 bf 1f 49 e4 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 11, 10, bf, 1f, 49, e4, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 33 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@67b5f6b6]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0a 22 10 bf 1f 49 eb 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0a, 22, 10, bf, 1f, 49, eb, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0b 22 10 bf 1f 49 f3 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0b, 22, 10, bf, 1f, 49, f3, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 22 21]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@2eaac8f8]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 05 21 10 bf 1f 49 e8 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 05, 21, 10, bf, 1f, 49, e8, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 00 00 16 16]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=0, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@594f7e23]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 16 17 10 bf 1f 49 10 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 16, 17, 10, bf, 1f, 49, 10, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 01 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 01, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 36 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, 36, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 b1 00 34 2c]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=177, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@66f33711]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 15 17 10 bf 1f 49 0e 02 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 15, 17, 10, bf, 1f, 49, 0e, 02, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 14 17 10 bf 1f 49 ef 01 47 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 14, 17, 10, bf, 1f, 49, ef, 01, 47, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=12 29 00 00 10 bf 1f 49 00 ff ff 00 00 f4 01 34 00 31 2a]
+TransitionUpdate [size=18, msg_id=41, road_piece_idx=0, road_piece_idx_prev=0, offset_from_road_center_mm=0.0, driving_direction=0, last_recv_lane_change_id=255, last_exec_lane_change_id=255, last_desired_horizontal_speed_mm_per_sec=0, last_desired_speed_mm_per_sec=0, uphill_counter=244, downhill_counter=1, left_wheel_dist_cm=52, right_wheel_dist_cm=0, ankiCar=CarBerta, messageBody=[Ljava.lang.String;@2ebb7d3f]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 0f 27 10 bf 1f 49 ea 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 0f, 27, 10, bf, 1f, 49, ea, 01, 07, ff, ff, 00, 00, f4, 01]]
+
+RawAnkiMessage [address=D6:3C:A3:24:A0:F9, rawMessage=10 27 10 27 10 bf 1f 49 f9 01 07 ff ff 00 00 f4 01]
+AnkiMessage [ankiCar=CarBerta, messageBody=[10, 27, 10, 27, 10, bf, 1f, 49, f9, 01, 07, ff, ff, 00, 00, f4, 01]]

@@ -8,7 +8,7 @@ public class MessageFactory {
 		case "4d":
 			break;
 		case "27":
-			break;
+			return new PositionUpdate(AnkiCar.get(carKey), message);
 		case "29":
 			return new TransitionUpdate(AnkiCar.get(carKey), message);
 		case "41":
@@ -25,6 +25,9 @@ public class MessageFactory {
  *   29 - transition update / position
  *      1 -  road peace id NOW
  *      2 -  road peace id PREVIOUS
+ * Example:
+ * 
+ *   AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
  */
 		return new AnkiMessage(AnkiCar.get(carKey), message);
 	}
