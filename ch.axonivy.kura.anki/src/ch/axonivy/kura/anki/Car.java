@@ -58,6 +58,7 @@ class Car
       }
       activateNotifications();
       setSdkMode(true);
+      resetOffsetFromRoadCenter();
       return true;
     }
     catch (KuraException ex)
@@ -181,9 +182,14 @@ class Car
 
   public void setOffset(float offset)
   {
-    AnkiMessage msg = AnkiMessage.createSetOffsetFromRoadCenterMessage(0.0f);    
+    resetOffsetFromRoadCenter();
+    AnkiMessage msg = AnkiMessage.createChangeLaneMessage(100, 20000, offset);    
     writeMessage(msg);
-    msg = AnkiMessage.createChangeLaneMessage(100, 20000, offset);    
+  }
+
+  private void resetOffsetFromRoadCenter()
+  {
+    AnkiMessage msg = AnkiMessage.createSetOffsetFromRoadCenterMessage(0.0f);    
     writeMessage(msg);
   }
   

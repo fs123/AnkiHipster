@@ -63,7 +63,9 @@ public class AnkiCloudClientListener implements DataTransportListener
     try
     {
       RawAnkiMessage rawAnkiMessage = RawAnkiMessage.fromBytes(arg1);
-      component.getCar(rawAnkiMessage.getAddress()).handle(rawAnkiMessage);
+      Car car = component.getCar(rawAnkiMessage.getAddress());
+      car.handle(rawAnkiMessage);
+      logger.info("Handle Message "+car.getName()+":"+rawAnkiMessage);
     }
     catch (IOException ex)
     {
