@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anki Overdrive Control</title>
+</head>
+<body>
+  <h1>Anki Overdrive Control</h1>
+
+
+
+  <div class="row">
+    <div class="col-md-4">
+
+      <form>
+        <div class="form-group">
+          <label for="carName">Car</label>
+          <select id="carName" class="form-control" [(ngModel)]="updater.carName" (change)="setCarName($event.target.value)"  [disabled]="updater.carNameXX" name="carName">
+            <option value="">Select your car!</option>
+            <option value="NUKE">NUKE</option>
+            <option value="GROUP_SHOOK">GROUP_SHOOK</option>
+            <option value="SKULL">SKULL</option>
+            <option value="GURROIAN">GURROIAN</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Position</label>
+          <div>
+            <button type="button" [disabled]="!updater.carName" (click)="sendPosition(-100)">L</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendPosition(-50)">LM</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendPosition(0)">M</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendPosition(50)">MR</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendPosition(100)">R</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Speed</label>
+          <div>
+            <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(80)">80</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(200)">200</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(400)">400</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(600)">600</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(800)">800</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(1000)">1000</button>
+            <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(1200)">1200</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+
+    <div class="col-md-8">
+
+      <div *ngFor="let upd of (positionUpdate | async)">
+        location_id: {{upd.location_id}}<br/>
+        road_piece_id: {{upd.road_piece_id}}<br/>
+        offset_from_road_center_mm: {{upd.offset_from_road_center_mm}}<br/>
+        speed_mm_per_sec: {{upd.speed_mm_per_sec}}
+      </div>
+
+    </div>
+  </div>
+
+
+
+</body>
+</html>

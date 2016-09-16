@@ -1,0 +1,95 @@
+import {Injectable} from '@angular/core';
+import 'rxjs/add/operator/map';
+import {Observable} from "rxjs/Rx.DOM";
+import {WebSocketSubject, WebSocketSubjectConfig} from "./WebSocketSubjectBeta8";
+import {Subject} from "rxjs/Subject";
+import {Observer} from "rxjs/Observer";
+import {RetryWhenSignature} from "rxjs/operator/retryWhen";
+import {Subscription} from "rxjs/Subscription";
+
+
+@Injectable()
+export class WebSocketService {
+
+    // Useful links:
+    // - https://github.com/Reactive-Extensions/RxJS
+    // - https://github.com/Reactive-Extensions/RxJS-DOM
+    // - https://github.com/jeffbcross/aim/blob/master/src/
+
+    connection: WebSocketSubject<any>;
+    webSocket: Observable<WebSocketMessage>;
+
+    constructor() {
+        this.connection = WebSocketSubject.create(this._createConnectionConfig());
+        this.webSocket =
+            this.connection
+                .asObservable()
+                // to allow reconnect we create each time a new subject
+                .multicast(() => new Subject<WebSocketMessage>())
+                // this opens the connection with the first subscribe and
+                // close with the last unsubscribe
+                .refCount();
+    }
+
+    _createConnectionConfig() : WebSocketSubjectConfig {
+        var config: WebSocketSubjectConfig = {
+            url: "ws://localhost:8088/metrics",
+            closingObserver: {
+                // before we close the connection we send a close-message to Akka,
+                // this allows Akka to close the connection (akka will not automatic close the connection)
+                next: () => this.sendMessage(new WebSocketMessage("WebSocket.Close"))
+            }
+        };
+        return config;
+    }
+
+
+    sendMessage (message:WebSocketMessage) {
+        this.connection.next(JSON.stringify(message));
+    }
+
+    dataStream(eventType: string): Observable<WebSocketMessage> {
+        // we create an Observable, which listens to specific events on the web socket stream
+        return new Observable((observer: Observer<WebSocketMessage>) => {
+            const subscription = this.webSocket
+                // only messages we care about
+                .filter(m => m.type == eventType)
+                // Subscribe to web socket stream.
+                // We do not complete the stream to allow reconnect.
+                // The first subscription will open the connection.
+                .subscribe(
+                    m => observer.next(m),
+                    e => {
+                        observer.error(e);
+                        subscription.unsubscribe();
+                    });
+            // now we are sure the connection is up, send subscription event
+            this.sendMessage(new WebSocketMessage("WebSocket.Subscribe." + eventType));
+
+            return () => {
+                // on unsubscribe send unsubscribe-message and unsubscribe from web socket stream
+                this.sendMessage(new WebSocketMessage("WebSocket.Unsubscribe." + eventType));
+                subscription.unsubscribe();
+            };
+        })
+        // retry on error (after a timeout of 1 second)
+        .retryWhen(errors => Observable.timer(1000))
+        // casting ...
+        .map(m => {
+            try {
+                return (<WebSocketMessage>m);
+            } catch (e) {
+                console.error("Cast of incoming WebSocketMessage failed: " + e);
+                return null;
+            }
+        })
+        .filter(m => m != null)
+        // share stream. This allows multiple subscription and will send the subscription event
+        // on first subscribe and the unsubscription event with last unsubscribe.
+        .share();
+    }
+}
+
+export class WebSocketMessage {
+    constructor(public type: string, public data:any = undefined) {}
+}

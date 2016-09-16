@@ -1,0 +1,151 @@
+import {Injectable} from '@angular/core';
+import 'rxjs/add/operator/map';
+import {Subject} from "rxjs/Subject";
+import {Observer} from "rxjs/Observer";
+import {Subscription} from "rxjs/Subscription";
+import {ReplaySubject} from "rxjs/ReplaySubject";
+import {WebSocketSubject, WebSocketSubjectConfig} from "rxjs/observable/dom/WebSocketSubject";
+import {Observable} from "rxjs/Rx";
+
+@Injectable()
+export class WebSocketService {
+
+  private connection:WebSocketSubject<any>;
+  // private webSocket: Observable<WebSocketMessage>;
+  private webSocketSubject:Subject<WebSocketMessage>;
+  private webSocketSubscription:Subscription;
+
+  constructor() {
+    this.webSocketSubject = new Subject<WebSocketMessage>();
+    this.webSocketSubject
+      .filter(m => m.requestId > 0)
+      .subscribe( m => this.handleResponse(m));
+    this.reconnect();
+  }
+
+  public rawDataStream():Observable<any> {
+    return this.webSocketSubject;
+  }
+
+  private reconnect() {
+    if (this.webSocketSubscription) {
+      this.webSocketSubscription.unsubscribe();
+    }
+    this.connection = WebSocketSubject.create(this._createConnectionConfig());
+    this.webSocketSubscription =
+      this.connection
+        .asObservable()
+        // to allow reconnect we create each time a new subject
+        .multicast(() => new Subject<WebSocketMessage>())
+        // this opens the connection with the first subscribe (usage)
+        // and close the connection with the last unsubscribe (no longer used)
+        .refCount()
+        .subscribe(this.webSocketSubject);
+  }
+
+  _createConnectionConfig():WebSocketSubjectConfig {
+    var config:WebSocketSubjectConfig = {
+      url: "ws://192.168.3.9:8081/websocket",
+      closeObserver: {
+        next: () => this.reconnect()
+      }
+    };
+    return config;
+  }
+
+  sendMessage(message:WebSocketMessage) {
+    this.connection.next(JSON.stringify(message));
+  }
+
+  private requests : { [key:number] : Observer<WebSocketMessage>; } = {};
+  private nextId:number = 1;
+
+  createRequest(request:WebSocketMessage): Observable<WebSocketMessage> {
+    // tsc can't handle the closure handling here...
+    var other = this;
+    return Observable.create((observer:Observer<WebSocketMessage>) => {
+
+      request.requestId = other.nextId++;
+      other.requests[request.requestId] = observer;
+
+      other.connection.next(JSON.stringify(request));
+
+      return function () {
+        delete other.requests[request.requestId];
+      };
+    });
+  }
+
+  private handleResponse(message:WebSocketMessage) {
+    var observer = this.requests[message.requestId];
+    if (observer) {
+      observer.next(message);
+      observer.complete();
+      delete this.requests[message.requestId];
+    } else {
+      console.log("Unknown response: " + message);
+    }
+  }
+
+  private streams : { [key:string] : Observable<WebSocketMessage>; } = {};
+  dataStream(eventType:string):Observable<WebSocketMessage> {
+    var stream = this.streams[eventType];
+    if (!stream) {
+      stream = this.createDataStream(eventType);
+      this.streams[eventType] = stream;
+    }
+    return stream;
+  }
+
+  private createDataStream(eventType:string):Observable<WebSocketMessage> {
+    // we create an Observable, which listens to specific events on the web socket stream
+    return new Observable((observer:Observer<WebSocketMessage>) => {
+      const subscription = this.webSocketSubject
+      // only messages we care about
+        .filter(m => m.requestId == 0 && m.type == eventType)
+        // Subscribe to web socket stream.
+        // We do not complete the stream to allow reconnect.
+        // The first subscription will open the connection.
+        .subscribe(
+          m => observer.next(m),
+          e => {
+            observer.error(e);
+            subscription.unsubscribe();
+          });
+      // now we are sure the connection is up, send subscription event
+      this.sendMessage(new WebSocketMessage("WebSocket.Subscribe." + eventType));
+
+      return () => {
+        // on unsubscribe send unsubscribe-message and unsubscribe from web socket stream
+        this.sendMessage(new WebSocketMessage("WebSocket.Unsubscribe." + eventType));
+        subscription.unsubscribe();
+        delete this.streams[eventType];
+      };
+    })
+    // retry on error (after a timeout of 1 second)
+    // .retryWhen(errors => Observable.timer(1000))
+    // casting ...
+      .map(m => {
+        try {
+          return (<WebSocketMessage>m);
+        } catch (e) {
+          console.error("Cast of incoming WebSocketMessage failed: " + e);
+          return null;
+        }
+      })
+      .filter(m => m != null)
+      // share stream. This allows multiple subscriptions and will send the subscription event
+      // on first subscribe and the unsubscription event with last unsubscribe.
+      // The subscribers between will receive the last emitted value on the stream.
+      // Furthermore, he first subscription (should) triggers a publish-state event on server side.
+      // The implementation therefore is quite simple, see existing 'Web Socket Handler'.
+      .multicast(() => new ReplaySubject<WebSocketMessage>(1)).refCount()
+  }
+
+
+}
+
+export class WebSocketMessage {
+  constructor(public type:string, public data:any = undefined, public requestId:number = 0) {
+  }
+}
