@@ -45,6 +45,15 @@
             <button type="button" [disabled]="!updater.carName" (click)="sendSpeed(1200)">1200</button>
           </div>
         </div>
+        <div class="form-group">
+          <label>Speed</label>
+          <div>
+            <button type="button" [disabled]="!updater.carName" (click)="changeLight('HEADLIGHTS')">HEADLIGHTS</button>
+            <button type="button" [disabled]="!updater.carName" (click)="changeLight('BRAKELIGHTS')">BRAKELIGHTS</button>
+            <button type="button" [disabled]="!updater.carName" (click)="changeLight('FRONTLIGHTS')">FRONTLIGHTS</button>
+            <button type="button" [disabled]="!updater.carName" (click)="changeLight('ENGINE')">ENGINE</button>
+          </div>
+        </div>
       </form>
 
     </div>

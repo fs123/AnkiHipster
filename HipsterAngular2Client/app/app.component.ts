@@ -3,7 +3,7 @@ import {AnkiService} from "./anki/anki.service";
 import {Observable, Subscription} from "rxjs/Rx";
 import {WebSocketService, WebSocketMessage} from "./websocket/websocket.service";
 import {Store} from "@ngrx/store";
-import {AppStore, Position, SET_CAR_NAME, SET_POSITION, SET_SPEED} from "./anki/anki.store";
+import {AppStore, Position, SET_CAR_NAME, SET_POSITION, SET_SPEED, Light, SWITCH_LIGHT} from "./anki/anki.store";
 
 @Component({
   selector: 'my-app',
@@ -19,6 +19,8 @@ export class AppComponent {
   private updater:CarUpdate = new CarUpdate();
 
   private clientPosition:Observable<Position>;
+  private clientLights:Observable<Light[]>;
+
   private subs:Subscription;
 
   constructor(private ankiService:AnkiService,
@@ -26,24 +28,31 @@ export class AppComponent {
               public store: Store<AppStore>) {
     this.positionUpdate = ankiService.positionUpdate();
     this.clientPosition = store.select('clientPosition') as Observable<Position>;
+    this.clientLights = store.select('clientLights') as Observable<Light[]>;
   }
 
   ngOnInit() {
-    this.subs = this.clientPosition.subscribe(store => this.clientPositionChanged(store));
+    this.changeLight('HEADLIGHTS');
+    this.subs = Observable.combineLatest(this.clientPosition, this.clientLights).subscribe(newState => this.clientPositionChanged(newState));
   }
 
-  clientPositionChanged(store:any) {
-    console.log("store: " + store);
-    if (!store.clientPosition) {
+  clientPositionChanged(newState:any[]) {
+
+    let clientPosition:Position = newState[0] as Position;
+    let clientLights:Light[] = newState[1] as Light[];
+    if (!clientPosition) {
       return
     }
-    if (!store.clientPosition.carName) {
+    if (!clientPosition.carName) {
       return
     }
-    if (!store.clientPosition.position && !store.clientPosition.speed) {
-      return
-    }
-    this.webSocketService.sendMessage(new WebSocketMessage("CarUpdate", store.clientPosition));
+
+    let update = Object.assign({}, clientPosition, {lights: clientLights});
+    let message = new WebSocketMessage("CarUpdate", update);
+    console.log("send WS message: ");
+    console.log("  " + JSON.stringify(message));
+
+    this.webSocketService.sendMessage(message);
   }
 
   ngOnDestroy() {
@@ -66,8 +75,12 @@ export class AppComponent {
     this.store.dispatch({ type: SET_SPEED, payload: speed});
     //this.webSocketService.sendMessage(new WebSocketMessage("CarUpdate", {carName: this.updater.carName, speed: speed} ));
   }
+
+  changeLight(lightName:string) {
+    this.store.dispatch({ type: SWITCH_LIGHT, payload: lightName});
+  }
 }
 
 export class CarUpdate {
-  constructor(public carName:string="", public position:number=0, public speed:number=0){}
+  constructor(public carName:string="", public position?:number, public speed?:number){}
 }
