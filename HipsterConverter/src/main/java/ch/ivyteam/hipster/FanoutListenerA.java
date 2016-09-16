@@ -12,7 +12,7 @@ public class FanoutListenerA {
 	//@RabbitListener(queues = "myQueue")
 	@RabbitListener(bindings = @QueueBinding(
 	        value = @Queue(durable = "false", autoDelete="true"), // no name, because the queue is only temporary
-	        exchange = @Exchange(value = Config.EXCHANGE_KEY_HIPSTER_MESSAGES, type="fanout", ignoreDeclarationExceptions = "true", autoDelete = "true")
+	        exchange = @Exchange(value = Config.EXCHANGE_KEY_HIPSTER_MESSAGES, type="topic", ignoreDeclarationExceptions = "true", autoDelete = "true")
 	        //,key = "orderRoutingKey"
 	        )
 	  )

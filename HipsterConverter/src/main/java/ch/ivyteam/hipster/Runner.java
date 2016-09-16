@@ -10,20 +10,15 @@ import org.springframework.stereotype.Component;
 public class Runner implements CommandLineRunner {
 
     private final ConfigurableApplicationContext context;
+	private RawMessageToHipsterMessageConverter converter;
 
-    public Runner(ConfigurableApplicationContext context) {
+    public Runner(ConfigurableApplicationContext context, RawMessageToHipsterMessageConverter converter) {
         this.context = context;
+		this.converter = converter;
     }
 
     @Override
     public void run(String... args) throws Exception {
-//    	Console console = System.console();
     	System.out.println("Converter up and running...");
-//    	String readLine = null;
-//		do {
-//    		System.out.println("press 'q' to quit...");
-//    		readLine = console.readLine();
-//    	} while (readLine == null || !readLine.toLowerCase().equals("q"));
-//    	context.close();
-    }
+   }
 }

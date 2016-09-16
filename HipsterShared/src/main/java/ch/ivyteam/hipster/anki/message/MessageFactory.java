@@ -8,9 +8,9 @@ public class MessageFactory {
 		case "4d":
 			break;
 		case "27":
-			return new PositionUpdate(AnkiCar.get(carKey), message);
+			return new PositionUpdate(AnkiCar.get(carKey), new AnkiMessageParser(message));
 		case "29":
-			return new TransitionUpdate(AnkiCar.get(carKey), message);
+			return new TransitionUpdate(AnkiCar.get(carKey), new AnkiMessageParser(message));
 		case "41":
 			break;
 		default:
@@ -29,6 +29,6 @@ public class MessageFactory {
  * 
  *   AnkiMessage [ankiCar=CarCesar, messageBody=[0e, 41, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, f4, 01, 80]]
  */
-		return new AnkiMessage(AnkiCar.get(carKey), message);
+		return new AnkiMessage(AnkiCar.get(carKey), new AnkiMessageParser(message));
 	}
 }
