@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" deactivate="deactivate" name="ch.axonivy.kura.anki">
+   <implementation class="ch.axonivy.kura.anki.Component"/>
+   <reference bind="setBluetoothService" cardinality="1..1" interface="org.eclipse.kura.bluetooth.BluetoothService" name="BluetoothService" policy="static" unbind="unsetBluetoothService"/>
+   <reference bind="setDataTransportService" cardinality="1..1" interface="org.eclipse.kura.data.DataTransportService" name="DataTransportService" policy="static" unbind="unsetDataTransportService"/>
+</scr:component>

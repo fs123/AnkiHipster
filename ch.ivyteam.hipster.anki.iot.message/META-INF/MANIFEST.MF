@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ivyTeam Hipster Anki IOT Message
+Bundle-SymbolicName: ch.ivyteam.hipster.anki.iot.message
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Axon.ivy
+Export-Package: ch.ivyteam.hipster.anki.iot.message
+

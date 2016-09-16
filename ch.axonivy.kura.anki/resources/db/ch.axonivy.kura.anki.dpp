@@ -1,0 +1,9 @@
+#Deployment Plugin Project File
+#Thu Jul 28 11:45:26 CEST 2016
+bundles.count=0
+certificates.count=0
+general.signbundles=false
+headers.other.headers=
+headers.symbolic.name=ch.axonivy.kura.anki
+headers.version=1.0.0
+resources.count=0
