@@ -45,7 +45,7 @@ export class WebSocketService {
 
   _createConnectionConfig():WebSocketSubjectConfig {
     var config:WebSocketSubjectConfig = {
-      url: "ws://192.168.3.9:8081/websocket",
+      url: "ws://192.168.3.6:8081/websocket",
       closeObserver: {
         next: () => this.reconnect()
       }
