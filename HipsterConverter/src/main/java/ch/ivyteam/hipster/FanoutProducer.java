@@ -1,7 +1,5 @@
 package ch.ivyteam.hipster;
 
-import java.util.Random;
-
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

@@ -58,7 +58,7 @@ public class WebSocketHandler extends TextWebSocketHandler
 		AnkiCar car = AnkiCar.valueOf(data.get("carName").asText());
 		setSpeed(data, car);
 		changeLane(data, car);
-		setLight(data, car);
+		setLights(data, car);
 		System.out.println("WebSocket command "+json);		
 	}
 
@@ -80,15 +80,18 @@ public class WebSocketHandler extends TextWebSocketHandler
 		}
 	}
 
-	private void setLight(JsonNode data, AnkiCar car) {
-		JsonNode light = data.get("light");
-		if (light != null)
+	private void setLights(JsonNode data, AnkiCar car) {
+		JsonNode lights = data.get("lights");
+		if (lights != null)
 		{
-			Light name = Light.valueOf(light.get("name").asText());
-			if (name != null)
+			for (JsonNode light : lights)
 			{
-				SetLight setLight = new SetLight(car, name, light.get("on").asBoolean());
-				rabbitTemplate.convertAndSend(Config.EXCHANGE_KEY_HIPSTER_MESSAGES, setLight.getTopic(), setLight);
+				Light name = Light.valueOf(light.get("name").asText());
+				if (name != null)
+				{
+					SetLight setLight = new SetLight(car, name, light.get("on").asBoolean());
+					rabbitTemplate.convertAndSend(Config.EXCHANGE_KEY_HIPSTER_MESSAGES, setLight.getTopic(), setLight);
+				}
 			}
 		}
 	}

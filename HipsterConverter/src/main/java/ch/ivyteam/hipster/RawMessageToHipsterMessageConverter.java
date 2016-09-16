@@ -9,12 +9,8 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
 
 import ch.ivyteam.hipster.anki.iot.message.RawAnkiMessage;
-import ch.ivyteam.hipster.anki.message.AnkiCar;
 import ch.ivyteam.hipster.anki.message.AnkiMessage;
-import ch.ivyteam.hipster.anki.message.AnkiMessageParser;
 import ch.ivyteam.hipster.anki.message.MessageFactory;
-import ch.ivyteam.hipster.anki.message.PositionUpdate;
-import ch.ivyteam.hipster.anki.message.TransitionUpdate;
 
 @Component
 public class RawMessageToHipsterMessageConverter {

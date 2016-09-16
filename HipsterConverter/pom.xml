@@ -24,6 +24,7 @@
 		<java.version>1.8</java.version>
 		<reactor.version>3.0.0.RC1</reactor.version>
 		<spring.version>5.0.0.M1</spring.version>
+		<docker.image.prefix>rwei</docker.image.prefix>	
 	</properties>
 
 	<dependencies>
@@ -42,6 +43,11 @@
 			<artifactId>hipstershared</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>ch.ivyteam.hipster</groupId>
+			<artifactId>anki-iot-message</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>		
 	</dependencies>
 
 	<dependencyManagement>
@@ -62,6 +68,22 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			   <plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>docker-maven-plugin</artifactId>
+				<version>0.4.11</version>
+				<configuration>
+				  <imageName>${docker.image.prefix}/hipsterconverter</imageName>
+				  <dockerDirectory>src/main/docker</dockerDirectory>
+				  <resources>
+				  	<resource>
+			  			<targetPath>/</targetPath>
+			  			<directory>${project.build.directory}</directory>
+				  		<include>${project.build.finalName}.jar</include>
+				  	</resource>
+				  </resources>
+				</configuration>
+			</plugin>	
 		</plugins>
 	</build>
 
