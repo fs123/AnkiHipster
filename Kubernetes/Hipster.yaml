@@ -1,0 +1,131 @@
+#
+# Configures all the necessary services, pods and replication controllers to run the Hipster Microservices
+# on a Kubernetes cloud
+#
+# How to use:
+#
+# kubectl create Hipster.yaml
+# 
+apiVersion: v1
+kind: Service
+metadata:
+  name: hipsterserver
+  labels:
+    visualize: 'true'
+    name: HipsterServer
+spec:
+  ports:
+  - port: 8081
+    targetPort: 8081
+  externalIPs: 
+   - 192.168.3.72
+  selector:
+    name: HipsterServer
+---
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: hipsterserver
+  labels:
+    visualize: 'true'
+    name: HipsterServer
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        visualize: 'true'
+        name: HipsterServer
+    spec:
+      containers:
+      - name: hipsterserver
+        image: rwei/hipsterserver:latest
+        ports:
+          - containerPort: 6379
+---
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: hipsterconverter
+  labels:
+    visualize: 'true'
+    name: HipsterConverter
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        visualize: 'true'
+        name: HipsterConverter
+    spec:
+      containers:
+      - name: hipsterconverter
+        image: rwei/hipsterconverter:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rabbit-mq-mgmt
+  labels:
+    visualize: 'true'
+    name: Rabbit-MQ-Mgmt
+spec:
+  ports:
+  - port: 15672
+    targetPort: 15672
+  externalIPs: 
+   - 192.168.3.72
+  selector:
+    name: Rabbit-MQ
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rabbit-mq-mqtt
+  labels:
+    visualize: 'true'
+    name: Rabbit-MQ-MQTT
+spec:
+  ports:
+  - port: 1883
+    targetPort: 1883
+  externalIPs: 
+   - 192.168.3.72
+  selector:
+    name: Rabbit-MQ
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rabbit-mq-msg
+  labels:
+    visualize: 'true'
+    name: Rabbit-MQ-Msg
+spec:
+  ports:
+  - port: 5672
+    targetPort: 5672
+  externalIPs: 
+   - 192.168.3.72
+  selector:
+    name: Rabbit-MQ
+---
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: rabbit-mq
+  labels:
+    visualize: 'true'
+    name: Rabbit-MQ
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        visualize: 'true'
+        name: Rabbit-MQ
+    spec:
+      containers:
+      - name: rabbit-mq
+        image: sysrun/rpi-rabbitmq
+                    
