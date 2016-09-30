@@ -79,6 +79,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.11</version>
 				<configuration>
+				  <serverId>docker-hub</serverId>
 				  <imageName>${docker.image.prefix}/hipsterserver</imageName>
 				  <dockerDirectory>src/main/docker</dockerDirectory>
 				  <resources>

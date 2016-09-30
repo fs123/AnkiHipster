@@ -73,6 +73,8 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.11</version>
 				<configuration>
+				  <serverId>docker-hub</serverId>
+				  <registryUrl>https://registry.hub.docker.com/v1</registryUrl>
 				  <imageName>${docker.image.prefix}/hipsterconverter</imageName>
 				  <dockerDirectory>src/main/docker</dockerDirectory>
 				  <resources>
